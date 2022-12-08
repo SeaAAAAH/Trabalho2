@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 122
+  controlID: 16
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -150,7 +150,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &7
 MonoBehaviour:
@@ -219,7 +219,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 56
+  controlID: 21
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -244,7 +244,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 57
+  controlID: 22
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -456,11 +456,11 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Scenes
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\User\Desktop\EsACT\4 ano\IA\GOAP\Trabalho2\Setting
     up GOAP Environment
@@ -468,8 +468,8 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 22390000
-    m_LastClickedID: 14626
+    m_SelectedIDs: 30390000
+    m_LastClickedID: 14640
     m_ExpandedIDs: 000000002239000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -581,17 +581,18 @@ MonoBehaviour:
     height: 926
   m_ViewDataDictionary: {fileID: 0}
   m_OpenAddComponentMenu: 0
-  m_ObjectsLockedBeforeSerialization: []
-  m_InstanceIDsLockedBeforeSerialization: 
+  m_ObjectsLockedBeforeSerialization:
+  - {fileID: 0}
+  m_InstanceIDsLockedBeforeSerialization: ca330000
   m_LockTracker:
-    m_IsLocked: 0
+    m_IsLocked: 1
   m_PreviewResizer:
     m_CachedPref: 160
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 88
 --- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -621,23 +622,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 5c390000
       m_LastClickedID: 0
-      m_ExpandedIDs: 
+      m_ExpandedIDs: 68fbffff6afbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Waiting Area
+        m_OriginalName: Waiting Area
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 13930
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 4}
       m_SearchString: 
@@ -683,9 +684,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -20.746582, y: -5.984068, z: -22.060322}
+    m_Target: {x: -8.928062, y: 3.2338943, z: -23.94283}
     speed: 2
-    m_Value: {x: -20.746582, y: -5.984068, z: -22.060322}
+    m_Value: {x: -8.928062, y: 3.2338943, z: -23.94283}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -735,9 +736,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -0.22486421, y: 0.7735463, z: -0.38983554, w: -0.44619563}
   m_Size:
-    m_Target: 18.099566
+    m_Target: 12.810632
     speed: 2
-    m_Value: 18.099566
+    m_Value: 12.258978
   m_Ortho:
     m_Target: 0
     speed: 2
