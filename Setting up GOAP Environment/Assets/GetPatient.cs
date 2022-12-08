@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class GetPatient : GAction
 {
+    GameObject resource;
     public override bool PrePerform()
     {
         target = GWorld.Instance.RemovePatient();
