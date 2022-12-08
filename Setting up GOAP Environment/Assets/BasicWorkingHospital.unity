@@ -3784,6 +3784,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1646061454}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1684129880 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5874423910086712904, guid: 1b134b1c5bdecf14e936ab0619fcf833,
+    type: 3}
+  m_PrefabInstance: {fileID: 1554855489}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1687408942
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3974,7 +3980,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 15
+  m_Speed: 10
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -4039,18 +4045,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c80a5ec6b7dae8044bc0a4040cd8060e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  actionName: Action
+  actionName: Go To Cubicle
   cost: 1
   target: {fileID: 0}
   targetTag: 
-  duration: 0
+  duration: 1
   preConditions:
   - key: patientPickedup
     value: 0
   afterEffects:
   - key: treatPatient
     value: 0
-  agent: {fileID: 0}
+  agent: {fileID: 1860420950}
   running: 0
 --- !u!1 &1865696034
 GameObject:
@@ -4083,7 +4089,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   patientPrefab: {fileID: 7634033621385402618, guid: 235713a203b66b74c91b1e515e84ff24,
     type: 3}
-  numPatients: 5
+  numPatients: 1
 --- !u!4 &1865696036
 Transform:
   m_ObjectHideFlags: 0
@@ -4574,6 +4580,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1414178069, guid: 235713a203b66b74c91b1e515e84ff24, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 1684129880}
     - target: {fileID: 7624191413061490030, guid: 235713a203b66b74c91b1e515e84ff24,
         type: 3}
       propertyPath: m_RootOrder
